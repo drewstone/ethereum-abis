@@ -1,0 +1,316 @@
+{
+  "contractName": "Assertive",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "assertion",
+          "type": "bool"
+        }
+      ],
+      "name": "assert",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b60a08061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630674763c146044575b600080fd5b3415604e57600080fd5b6064600480803515159060200190919050506066565b005b801515607157600080fd5b505600a165627a7a7230582022344dadc27770d511a927b05dc8f88f0f7c25506e5ba2bd1be0d198850285de0029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630674763c146044575b600080fd5b3415604e57600080fd5b6064600480803515159060200190919050506066565b005b801515607157600080fd5b505600a165627a7a7230582022344dadc27770d511a927b05dc8f88f0f7c25506e5ba2bd1be0d198850285de0029",
+  "sourceMap": "24:89:7:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "24:89:7:-;;;;;;;;;;;;;;;;;;;;;;;;47:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;90:9;89:10;85:21;;;101:5;;;85:21;47:64;:::o",
+  "source": "pragma solidity ^0.4.6;\ncontract Assertive {\n  function assert(bool assertion) {\n    if (!assertion) throw;\n  }\n}\n",
+  "sourcePath": "/Users/drewstone/src/eth/truffle-abi/contracts/lib/Assertive.sol",
+  "ast": {
+    "absolutePath": "/Users/drewstone/src/eth/truffle-abi/contracts/lib/Assertive.sol",
+    "exportedSymbols": {
+      "Assertive": [
+        2267
+      ]
+    },
+    "id": 2268,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2256,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2267,
+        "linearizedBaseContracts": [
+          2267
+        ],
+        "name": "Assertive",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2265,
+              "nodeType": "Block",
+              "src": "79:32:7",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "id": 2262,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "!",
+                    "prefix": true,
+                    "src": "89:10:7",
+                    "subExpression": {
+                      "argumentTypes": null,
+                      "id": 2261,
+                      "name": "assertion",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2258,
+                      "src": "90:9:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 2264,
+                  "nodeType": "IfStatement",
+                  "src": "85:21:7",
+                  "trueBody": {
+                    "id": 2263,
+                    "nodeType": "Throw",
+                    "src": "101:5:7"
+                  }
+                }
+              ]
+            },
+            "id": 2266,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "assert",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2259,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2258,
+                  "name": "assertion",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2266,
+                  "src": "63:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2257,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "63:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "62:16:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 2260,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:0:7"
+            },
+            "scope": 2267,
+            "src": "47:64:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2268,
+        "src": "24:89:7"
+      }
+    ],
+    "src": "0:114:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/drewstone/src/eth/truffle-abi/contracts/lib/Assertive.sol",
+    "exportedSymbols": {
+      "Assertive": [
+        2267
+      ]
+    },
+    "id": 2268,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2256,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2267,
+        "linearizedBaseContracts": [
+          2267
+        ],
+        "name": "Assertive",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2265,
+              "nodeType": "Block",
+              "src": "79:32:7",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "id": 2262,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "!",
+                    "prefix": true,
+                    "src": "89:10:7",
+                    "subExpression": {
+                      "argumentTypes": null,
+                      "id": 2261,
+                      "name": "assertion",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2258,
+                      "src": "90:9:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 2264,
+                  "nodeType": "IfStatement",
+                  "src": "85:21:7",
+                  "trueBody": {
+                    "id": 2263,
+                    "nodeType": "Throw",
+                    "src": "101:5:7"
+                  }
+                }
+              ]
+            },
+            "id": 2266,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "assert",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2259,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2258,
+                  "name": "assertion",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2266,
+                  "src": "63:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2257,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "63:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "62:16:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 2260,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:0:7"
+            },
+            "scope": 2267,
+            "src": "47:64:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2268,
+        "src": "24:89:7"
+      }
+    ],
+    "src": "0:114:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-07-09T23:07:42.795Z"
+}

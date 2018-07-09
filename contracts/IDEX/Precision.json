@@ -1,0 +1,166 @@
+{
+  "contractName": "Precision",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b60ae8061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063313ce567146044575b600080fd5b3415604e57600080fd5b60546070565b604051808260ff1660ff16815260200191505060405180910390f35b6000809054906101000a900460ff16815600a165627a7a7230582083ff210421d3b54fb879bd1a3422cf4a1afdff80fc4622c4e6ca41f37f3773b10029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063313ce567146044575b600080fd5b3415604e57600080fd5b60546070565b604051808260ff1660ff16815260200191505060405180910390f35b6000809054906101000a900460ff16815600a165627a7a7230582083ff210421d3b54fb879bd1a3422cf4a1afdff80fc4622c4e6ca41f37f3773b10029",
+  "sourceMap": "25:47:12:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:47:12:-;;;;;;;;;;;;;;;;;;;;;;;;48:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.7;\n\ncontract Precision {\n  uint8 public decimals;\n}\n",
+  "sourcePath": "/Users/drewstone/src/eth/truffle-abi/contracts/lib/Precision.sol",
+  "ast": {
+    "absolutePath": "/Users/drewstone/src/eth/truffle-abi/contracts/lib/Precision.sol",
+    "exportedSymbols": {
+      "Precision": [
+        2798
+      ]
+    },
+    "id": 2799,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2795,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:12"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2798,
+        "linearizedBaseContracts": [
+          2798
+        ],
+        "name": "Precision",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 2797,
+            "name": "decimals",
+            "nodeType": "VariableDeclaration",
+            "scope": 2798,
+            "src": "48:21:12",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 2796,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:5:12",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2799,
+        "src": "25:47:12"
+      }
+    ],
+    "src": "0:73:12"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/drewstone/src/eth/truffle-abi/contracts/lib/Precision.sol",
+    "exportedSymbols": {
+      "Precision": [
+        2798
+      ]
+    },
+    "id": 2799,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2795,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:12"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2798,
+        "linearizedBaseContracts": [
+          2798
+        ],
+        "name": "Precision",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 2797,
+            "name": "decimals",
+            "nodeType": "VariableDeclaration",
+            "scope": 2798,
+            "src": "48:21:12",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 2796,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:5:12",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2799,
+        "src": "25:47:12"
+      }
+    ],
+    "src": "0:73:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-07-09T23:07:42.797Z"
+}
